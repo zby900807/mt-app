@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+@function pr($px, $base: 37.5) {
+  @return ($px / $base) * 1rem;
+}
